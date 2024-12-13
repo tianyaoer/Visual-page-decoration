@@ -1,0 +1,31 @@
+.TitleBar_y1234{
+	.bianju{
+		margin: 10px;
+	}
+}
+.TitleBar_y1234_left{
+	.TitleBar_y1234_ditu{
+		position: absolute;
+		width: 100px;
+		height: 100px;
+		text-align: center;
+		top: 0;
+		left: 0;
+	}
+	.TitleBar_y1234_ditu:hover {
+	  background-color: #f2f2f2; /* 鼠标悬浮时的背景色 */
+	}
+	.TitleBar_y1234_tubiao{
+		line-height: 80px;
+		font-size: 40px;
+	}
+	.TitleBar_y1234_biaotilan{
+		line-height: 0;
+	}
+}
+.TitleBar_y1234_middle{
+	.TitleBar_y1234_title{
+		text-align: center;
+		
+	}
+}

@@ -1,0 +1,40 @@
+.page {
+	width: 1600px;
+	height: 800px;
+}
+
+.left {
+	width: 500px;
+	height: 700px;
+	float: left;
+	position: relative;
+	border: 2px solid #ccc;
+	margin: 10px;
+	margin-top: 50px;
+}
+
+.middle {
+	width: 500px;
+	height: 800px;
+	float: left;
+	position: relative;
+}
+
+.right {
+	width: 500px;
+	height: 800px;
+	float: left;
+	position: relative;
+}
+
+.draggable {
+	/* width: 100%;
+	height: 100%; */
+	/* background: red; */
+	
+	z-index: 9999;
+}
+img{
+	width: 100%;
+	height: 100%;
+}

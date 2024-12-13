@@ -1,0 +1,95 @@
+.Carousel_y1234{
+	.bianju{
+		margin: 10px;
+	}
+	.imgup{
+		margin-bottom: 10px;
+		border-bottom: 2px solid #ccc;
+		padding-bottom: 20px;
+	}
+	.add_img{
+		width: 100px;
+		height: 35px;
+		float: right;
+		line-height: 35px;
+		font-size: 18px;
+		border: 1px solid rgb(22, 186, 170);
+		text-align: center;
+		border-radius: 5px;
+		cursor: pointer; /* 将光标设置为手指形状 */
+	}
+	.Carousel_y1234_icon_img{
+		position: relative;
+		cursor: pointer;
+	}
+	.Carousel_y1234_icon_img:hover:after {
+	  content: attr(data-hover-text);
+	  position: absolute;
+	  right: 100%;
+	  top: 20px;
+	  color: black;
+	  background-color: #f9f9f9;
+	  padding: 5px;
+	  border: 1px solid #ccc;
+	  border-radius: 5px;
+	  z-index: 10;
+	}
+	.Carousel_y1234_icon_img_div{
+		margin-left: 20px;
+		float: right;
+		margin-top: -35px;
+	}
+}
+.Carousel_y1234_left{
+	.Carousel_y1234_ditu{
+		position: absolute;
+		width: 100px;
+		height: 100px;
+		text-align: center;
+		top: 0;
+		left: 0;
+	}
+	.Carousel_y1234_ditu:hover {
+	  background-color: #f2f2f2; /* 鼠标悬浮时的背景色 */
+	}
+	.Carousel_y1234_tubiao{
+		line-height: 80px;
+		font-size: 40px;
+	}
+	.Carousel_y1234_biaotilan{
+		line-height: 0;
+	}
+}
+.Carousel_y1234_middle{
+	.Carousel_y1234_title{
+		text-align: center;
+	}
+	.Carousel_y1234_imgfind-0{
+		height: 100%;
+		float: left;
+	}
+	.Carousel_y1234_imgthis{
+		height: 100%;
+	}
+	.Carousel_y1234_img_name{
+		text-align: center;
+		padding-top: 5px;
+		
+	}
+	.Carousel_y1234_imgfind-1{
+		width: 69%;
+		float: left;
+	}
+	.Carousel_y1234_imgfind-2{
+		width: 31%;
+		float: left;
+	}
+	.Carousel_y1234_imgfind-3{
+		width: 69%;
+		float: right;
+	}
+	.Carousel_y1234_imgfind-4{
+		width: 31%;
+		float: right;
+	}
+}

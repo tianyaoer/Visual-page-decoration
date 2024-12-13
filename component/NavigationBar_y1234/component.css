@@ -1,0 +1,62 @@
+.NavigationBar_y1234_middle{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 400px;
+	height: 60px;
+	.NavigationBar_y1234_imgfind{
+		width: 25%;
+		height: 50px;
+		float: left;
+	}
+	.NavigationBar_y1234_imgthis{
+		width: 30px;
+		height: 30px;
+	}
+	.NavigationBar_y1234_img_name{
+		text-align: center;
+	}
+}
+.NavigationBar_y1234{
+	.bianju{
+		margin: 10px;
+	}
+	.imgup{
+		margin-bottom: 10px;
+		border-bottom: 2px solid #ccc;
+		padding-bottom: 20px;
+		
+	}
+	.add_img{
+		width: 100px;
+		height: 35px;
+		float: right;
+		line-height: 35px;
+		font-size: 18px;
+		border: 1px solid rgb(22, 186, 170);
+		text-align: center;
+		border-radius: 5px;
+		cursor: pointer; /* 将光标设置为手指形状 */
+	}
+	.icon_img{
+		position: relative;
+		cursor: pointer;
+	}
+	.icon_img:hover:after {
+	  content: attr(data-hover-text);
+	  position: absolute;
+	  right: 100%;
+	  top: 20px;
+	  color: black;
+	  background-color: #f9f9f9;
+	  padding: 5px;
+	  border: 1px solid #ccc;
+	  border-radius: 5px;
+	  z-index: 10;
+	}
+	.icon_img_div{
+		margin-left: 20px;
+		float: right;
+		margin-top: -35px;
+	}
+}

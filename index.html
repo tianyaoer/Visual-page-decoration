@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<script src="jq/jquery-3.7.1.min.js"></script>
+	<script src="jquery-ui-1.14.1/jquery-ui.js"></script>
+	<link rel="stylesheet" href="css/left.css">
+	<link rel="stylesheet" href="css/right.css">
+	<link rel="stylesheet" href="css/middle.css">
+	<link rel="stylesheet" href="css/index.css">
+	<!-- https://layui.dev/ -->
+	<link href="layui/css/layui.css" rel="stylesheet">
+	<script src="layui/layui.js"></script>
+	
+	<!-- 组件的js和css -->
+	<link rel="stylesheet" href="component/component.css" lang="scss">
+	
+	<!-- 标题栏组件css/js/json -->
+	<link rel="stylesheet" href="component/TitleBar_y1234/component.css" lang="scss">
+	<script src="component/TitleBar_y1234/component.js"></script>
+	<script src="component/TitleBar_y1234/structure.js"></script>
+	<!-- 标题栏组件css/js/json -->
+	<!-- 图片组组件css/js/json -->
+	<link rel="stylesheet" href="component/GroupofPictures_y1234/component.css" lang="scss">
+	<script src="component/GroupofPictures_y1234/component.js"></script>
+	<script src="component/GroupofPictures_y1234/structure.js"></script>
+	<!-- 图片组组件css/js/json-->
+	<!-- 导航栏组件css/js/json -->
+	<link rel="stylesheet" href="component/NavigationBar_y1234/component.css" lang="scss">
+	<script src="component/NavigationBar_y1234/component.js"></script>
+	<script src="component/NavigationBar_y1234/structure.js"></script>
+	<!-- 导航栏组件css/js/json-->
+	<!-- 轮播组件css/js/json -->
+	<link rel="stylesheet" href="component/Carousel_y1234/component.css" lang="scss">
+	<script src="component/Carousel_y1234/component.js"></script>
+	<script src="component/Carousel_y1234/structure.js"></script>
+	<!-- 轮播组件css/js/json-->
+	<body>
+		<div class="page">
+			<div class="left">
+				
+			</div>
+			
+			<div class="middle">
+				<button type="button" class="layui-btn middle-bj layui-btn-primary layui-btn-sm NavigationBar_y1234_buttom"
+				 data-hover-text="修改页面导航栏" data-component_type="NavigationBar_y1234" data-code="NavigationBar_y1234_code">
+				    <i class="layui-icon layui-icon-edit"></i>修改页面导航栏
+				</button>
+				<button type="button" class="layui-btn middle-bc">保存</button>
+				<div class="middle-1">
+					
+				</div>
+			</div>
+			<div class="right">
+				<div class="right-1">
+					<div class="right-2 layui-btn-group">
+						<button type="button" class="right-2-1 right_icon_img_up layui-btn layui-btn-primary layui-btn-sm" data-hover-text="上移">
+						    <i class="layui-icon layui-icon-up"></i><!-- 上移 -->
+						</button>
+						<button type="button" class="right-2-1 right_icon_img_down layui-btn layui-btn-primary layui-btn-sm" data-hover-text="下移">
+						    <i class="layui-icon layui-icon-down"></i><!-- 下移 -->
+						</button>
+						<!-- <button type="button" class="right-2-1 right_icon_img_add layui-btn layui-btn-primary layui-btn-sm" data-hover-text="复制">
+						    <i class="layui-icon layui-icon-add-1"></i>
+						</button> -->
+						<button type="button" class="right-2-1 right_icon_img_delete layui-btn layui-btn-primary layui-btn-sm" data-hover-text="删除">
+						    <i class="layui-icon layui-icon-delete"></i><!-- 删除 -->
+						</button>
+					</div>
+					
+					<div class="right-0">
+						<div class="right-0-1">文本</div>
+						<button type="button" class="right-0-2 layui-btn layui-btn-primary layui-btn-sm" data-hover-text="关闭修改">
+						    <i class="layui-icon layui-icon-close"></i><!-- 关闭修改 -->
+						</button>
+					</div>
+					
+					<div class="right-3">
+						<form class="layui-form" action="">
+							<div class="right-3-1">
+								<!-- <div class="layui-form-item">
+									<label class="layui-form-label">验证必填项</label>
+									<div class="layui-input-block">
+										<input type="text" name="username" lay-verify="required" placeholder="请输入" autocomplete="off" class="layui-input">
+									</div>
+								</div> -->
+							</div>
+							
+							<!-- <div class="layui-form-item">
+								<div class="layui-input-block">
+									<button type="submit" class="layui-btn" lay-submit lay-filter="demo1">保存</button>
+									<button type="reset" class="layui-btn layui-btn-primary">重置</button>
+								</div>
+							</div> -->
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</body>
+	<script src="component/component.js"></script>
+</html>
